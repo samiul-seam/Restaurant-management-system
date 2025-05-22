@@ -1,0 +1,92 @@
+🗺️ Roadmap to Use the Restaurant Management System
+________________________________________
+✅ Step 1: Run the Program
+•	Open the Python file in your preferred code editor or terminal.
+•	Make sure you have Python 3 installed.
+•	Run the file using the command:
+Use VS code , Codeblocks Or Online Compiler for Python 3
+________________________________________
+✅ Step 2: Select User Role
+After the program starts, you'll see:
+*** Welcome to Restaurant Management System ***
+1. Admin
+2. Customer
+3. Exit
+•	Enter 1 for Admin
+•	Enter 2 for Customer
+•	Enter 3 to Exit the system
+________________________________________
+✅ Step 3: Log in as Admin
+•	Enter Admin credentials:
+o	Username: admin
+o	Password: 1234
+________________________________________
+✅ Step 4: First-Time Setup (Important!)
+This part is only required the first time you run the system:
+➤ Add Employees
+•	Choose Option 1: Add New Employee
+•	You will be prompted to enter:
+o	Name 
+o	Phone 
+o	Email
+o	Address
+o	Designation
+o	Salary
+Example:
+Name: Rahim  
+Phone: 017xxxxxxxx  
+Email: rahim@example.com  
+Address: Dhaka  
+Designation: Waiter  
+Salary: 12000
+NB : You must add at least one employee before moving forward.
+➤ Add Food Items
+•	Choose Option 4: Add New Item
+•	You will be asked to enter:
+o	Item name
+o	Price
+o	Quantity
+Example:
+Item name: Burger  
+Price: 80 
+Quantity: 20
+Item name: Pizza  
+Price: 599  
+Quantity: 30
+Add a few food items so the Customer can see and order them later.
+________________________________________
+✅ Step 5: Customer Panel
+•	Go back to the main menu and choose Option 2: Customer
+•	Provide:
+o	Name
+o	Email
+o	Phone
+o	Address
+Now the Customer can:
+1.	View menu
+2.	Add food to cart
+3.	View cart and total
+4.	Pay bill and place order
+5.	See order history
+6.	Exit
+________________________________________
+✅ Step 6: Other Admin Features
+Admin can also:
+Once logged in, the Admin can perform various management tasks:
+•	View Employees (Option 2)
+View the list of employees currently added to the system.
+•	Remove Employees (Option 3)
+🔒 Note: This option only works if at least one employee has been added.
+•	Delete Food Items (Option 5)
+🔒 Note: This option only works if at least one food item has been added.
+•	View Menu (Option 6)
+Displays the full food menu sorted alphabetically.
+•	Restock Items (Option 7)
+Add more quantity to existing food items.
+•	View Sales Report (Option 8)
+🔒 Note: This option becomes meaningful only after customers have placed orders and food has been sold.
+•	Exit Admin Panel (Option 9)
+Return to the main menu.
+________________________________________
+✅ Step 7: Exit the System
+•	Choose Exit (3) from the main menu to stop the program.
